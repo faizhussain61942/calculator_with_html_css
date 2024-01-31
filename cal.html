@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="body.css">
+</head>
+<body>
+        <h1>My Calculator</h1>
+        <form action="" name="clc">
+            <input type="text" name="display" id="display"><br>
+        <input type="button" value="1" onclick="clc.display.value +='1'">
+        <input type="button" value="2" onclick="clc.display.value +='2'">
+        <input type="button" value="3" onclick="clc.display.value +='3'">
+        <input type="button" value="/" onclick="clc.display.value +='/'" style="background-color: #cc5c11;"><br>
+        <input type="button" value="4" onclick="clc.display.value +='4'">
+        <input type="button" value="5" onclick="clc.display.value +='5'">
+        <input type="button" value="6" onclick="clc.display.value +='6'">
+        <input type="button" value="*" onclick="clc.display.value +='*'" style="background-color: #ba55d3;"><br>
+        <input type="button" value="7" onclick="clc.display.value +='7'">
+        <input type="button" value="8" onclick="clc.display.value +='8'">
+        <input type="button" value="9" onclick="clc.display.value +='9'">
+        <input type="button" value="-" onclick="clc.display.value +='-'" style="background-color: #7db1b2;"><br>
+        <input type="button" value="0" onclick="clc.display.value +='0'">
+        <input type="button" value="c"  onclick="clc.display.value =''">
+        <input type="button" value="="  onclick="clc.display.value =eval(clc.display.value)">
+        <input type="button" value="+"  onclick="clc.display.value +='+'">
+    </form>
+</body>
+</html>
